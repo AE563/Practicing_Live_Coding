@@ -11,7 +11,6 @@ divisors(12) должно вернуть [1, 2, 3, 4, 6, 12]
 divisors(7) должно вернуть [1, 7]
 divisors(31) должно вернуть [1, 31]
 """
-import pytest
 
 
 def divisors(num: int) -> list:

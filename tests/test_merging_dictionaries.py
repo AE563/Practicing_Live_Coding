@@ -11,8 +11,7 @@ from src.merging_dictionaries import merge_dicts
     ({}, {}, {})
 ])
 def test_merge_dicts(dict1, dict2, expected):
-    assert merge_dicts(dict1, dict2) == expected, \
-        f'Ожидаемый ответ {expected}, а получили {merge_dicts(dict1, dict2)}'
+    assert merge_dicts(dict1, dict2) == expected
 
 
 # Тест результат должен быть новым словарем

@@ -10,5 +10,4 @@ from src.vowel_counter import count_vowels
     ("bcdfghjklmnpqrstvwxyz", 0)
 ])
 def test_count_vowels(text, expected):
-    assert count_vowels(text) == expected, \
-        f"Expected {expected}, got {count_vowels(text)}"
+    assert count_vowels(text) == expected

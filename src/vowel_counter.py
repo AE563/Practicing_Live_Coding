@@ -9,7 +9,6 @@ assert count_vowels("Hello") == 2
 assert count_vowels("Python is awesome") == 6
 assert count_vowels("Try to solve this task") == 5
 """
-import pytest
 
 
 def count_vowels(text: str) -> int:

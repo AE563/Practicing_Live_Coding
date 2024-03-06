@@ -8,5 +8,4 @@ from src.finding_divisors_number import divisors
     (31, [1, 31])
 ])
 def test_divisors(num, expected_result):
-    assert divisors(num) == expected_result, \
-        f'Ожидаемый результат {expected_result}, получили {divisors(num)}'
+    assert divisors(num) == expected_result
